@@ -1,7 +1,7 @@
 *{
     background-color: antiquewhite;
     text-decoration: none;
-    text-align: center;
+    box-sizing: border-box;
     list-style: none;
 }
 
@@ -10,10 +10,26 @@ h1{
     font-size: 60px;
     font-family:'Courier New', Courier, monospace;
 }
-p, li{
+p{
+    padding-left: 39px;
+    margin: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
 }
 h3{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 600px;
+
 }
